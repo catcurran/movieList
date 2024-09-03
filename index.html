@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Federo&family=Oswald:wght@200..700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a class="nav-selected" href="#">search</a></li>
+                <li><a id="mylist-nav" href="myList.html">my list</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Movie List</h1>
+            <form id="form" role="search">
+                <img src="images/search.png">
+                <input type="search" class="query" id="query" name="query"
+                        placeholder="Search..."
+                        aria-label="Search movies by title">
+                <button class="search-btn" id="search-btn">Search</button>
+            </form>
+        </header>
+        <section class="list-container" id="query-results">
+            <div class="empty-state">
+                <img class="film" src="images/film.png">
+                <h3>Start exploring</h3>
+                <p>Search by movie title for results</p>
+            </div>
+        </section>
+        
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

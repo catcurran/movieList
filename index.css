@@ -1,0 +1,220 @@
+.antic-didone-regular {
+  font-family: "Antic Didone", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.federo-regular {
+  font-family: "Federo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    color: #444241;
+}
+
+nav{
+    background-color: #B6D2CA;
+    padding: .025em;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+  margin: 0 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #083B2C;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #202020;
+}
+
+a:hover, a:active{
+  text-decoration: none;
+  border-bottom: 2px solid #58A791;
+}
+
+.nav-selected{
+    border-bottom: 2px solid #083B2C;
+}
+
+header{
+    background-color: #463f3a;
+    color: #e9e0dc;
+    padding: 1em;
+    font-family: "Federo", sans-serif;
+    background-image: url("images/theater.png");
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin-top: 70px; 
+    color: #083B2C;
+    text-shadow: 2px 2px #B6D2CA;
+    font-size: 3rem; 
+}
+h2{
+   margin-top: .25em;
+   padding-top: 0.4em;
+   color: #282624;
+}
+
+h5{
+    margin: 0;
+    font-weight: 500;
+    color: #6D6A68;
+}
+
+form{
+    right: 25%;
+    background-color: #B6D2CA;
+    border-radius: 4px;
+    display: flex;
+    width: 400px;
+    margin-bottom: 2em;
+    box-shadow: 2px 1px 3px #463f3a;
+}
+
+img{
+    background-color: #fff;
+    width: 24px;
+    height: 24px;
+    padding: .4em;
+    border-radius: 4px 0 0 4px;
+}
+
+input.query{
+    padding: .5em;
+    width: 300px;
+    border: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+button.search-btn{
+    padding: .5em 1em;
+    border-radius: 4px;
+    border: none;
+    background-color: #B6D2CA;
+    color: #083B2C;
+    font-family: "Oswald", sans-serif;
+}
+
+button.mylist-btn{
+    padding: .5em 1em .5em 2.3em;
+    border-radius: 4px;
+    border: none;
+    background-color: #B6D2CA;
+    color: #083B2C;
+    font-family: "Oswald", sans-serif;
+    background-image: url("images/plus-circle.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position-y: center;
+    background-position-x: .25em;
+}
+button.remove-btn{
+    padding: .5em 1em .5em 2.3em;
+    border-radius: 4px;
+    border: none;
+    background-color: #B6D2CA;
+    color: #083B2C;
+    font-family: "Oswald", sans-serif;
+    background-image: url("images/minus-circle.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position-y: center;
+    background-position-x: .25em;
+}
+
+.empty-state{
+    text-align: center;
+    margin-top: 3em;
+    color: #58A791;
+}
+
+.film{
+    width: 48px;
+    height: 48px;
+}
+
+.movie-card{
+    display: flex;
+    flex-direction: row;
+    margin: 1em 2em;
+    border-bottom: 1px solid #C9C1BB;
+    gap: .75em;
+}
+
+.movie-poster{
+    width: 20%;
+    height: 20%;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+}
+
+.tile-rating{
+    display: flex;
+}
+
+.movie-info{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.mylist-btn{
+    justify-self: flex-end;
+}
+
+.disabled{
+    background-color: #6D6A68;
+    color: #083B2C;
+    background-image: url("images/minus-circle.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position-y: center;
+    background-position-x: .25em;
+}
+}

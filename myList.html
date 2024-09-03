@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Federo&family=Oswald:wght@200..700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">search</a></li>
+                <li><a id="mylist-nav" class="nav-selected" href="#">my list</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Movie List</h1>
+        </header>
+        <section class="mylist-container" id="mylist">
+            <div class="empty-state">
+                <img class="film" src="images/film.png">
+                <h3>No movies added yet</h3>
+                <p>Go to search to find movies to add to your list</p>
+            </div>
+        </section>
+        <script src="myList.js" type="module"></script>
+    </body>
+</html>
